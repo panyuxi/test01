@@ -1,0 +1,16 @@
+git clone https://github.com/panyuxi/test01.git
+
+// 进入到托管项目的根目录
+cd test01
+
+// 将改动的地方添加到版本管理器
+git add .    
+
+// 提交到本地的版本控制库里，引号里面是你对本次提交的说明信息。
+git  commit -m "changes log"  
+
+
+// 将你本地的仓库提交到你的github账号里，此时会要求你输入你的github的账号和密码。
+git push -u origin master  
+
+
